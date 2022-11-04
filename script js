@@ -1,0 +1,31 @@
+//1
+let a = prompt('Введите число от 0 до 100')
+if (90<=a=>100) {
+    console.log('оценка A')
+} else if (80<=a>90) {
+    console.log('оценка B')
+} else if (70<=a>80) {
+    console.log('оценка C')
+} else if (60<=a>70) {
+    console.log('оценка D')
+} else {
+    console.log(оценка F)
+}
+
+//2
+function show() {
+    .MyToLowerCase();
+}
+var s1 = show();
+console.log(s1('Закончилось красное лето'));
+
+//3
+function getRandomNumber(max) {
+  return Math.floor(Math.random() * max);
+}
+
+console.log(getRandomInt(100));
+
+console.log(getRandomInt(100));
+
+console.log(Math.random(100));
